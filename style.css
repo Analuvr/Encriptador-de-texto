@@ -1,0 +1,190 @@
+body
+{
+    background-color: #ffb7b7;
+    font-family: 'Playfair Display', serif;
+}
+
+.logo-alura{
+    margin: 20px 0 0 20px;
+}
+
+main
+{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto
+{
+    margin-top: 90px;
+    margin-left: 90px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #ffb7b7;
+    border: none;
+    outline: none; /*eliminar el borde del textarea al hacer click sobre él*/
+    resize: none;
+
+}
+
+.aviso-letras{
+    font-size: 13px;
+    color: gray;
+    margin-left: 80px;
+    padding: 10px;
+}
+
+.botones
+{
+    /*display: flex;
+    flex-direction: row;*/
+    margin-top: 20px;
+    margin-left: 90px;
+
+}
+
+.encriptar
+{
+    background-color: #00008b;
+    color:white;
+    transition: 0.8s;
+    font-family: 'Playfair Display', serif;
+    border-color: #00008b;
+    border-width: 2px;
+    border-style: solid;
+    outline-color: #010147;
+    outline-width: 2px;
+    outline-style: solid;
+    width: 150px;
+    padding: 10px 0 10px 0;
+
+
+}
+
+.encriptar:hover{
+    /*background-color: #5252ad;*/
+    border-style: solid;
+    border-color: white;
+    /* border-spacing: 10px;*/
+    border-width: 2px;
+
+
+}
+
+.desencriptar
+{
+    margin-left: 30px;
+    background-color: lightgrey;
+    transition: 0.8s;
+    font-family: 'Playfair Display', serif;
+    border-color: lightgrey;
+    border-width: 2px;
+    border-style: solid;
+    outline-color: darkgrey;
+    outline-width: 2px;
+    outline-style: solid;
+    width: 150px;
+    padding: 10px 0 10px 0;
+}
+
+.desencriptar:hover{
+    /* background-color: darkgrey; */
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.mensaje
+{
+    /*position: relative;*/
+    margin-top: 20px;
+    margin-left: 50px;
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    background-size: 200px;
+    background-color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 20px 15px 20px;
+    box-shadow: inset 2px 2px 5px 2px lightgrey;
+    outline: none;
+    resize: none;
+}
+
+.copiar
+{
+    display: block;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: lightgrey;
+    font-family: 'Playfair Display', serif;
+    transition: 0.8s;
+    border-color: lightgrey;
+    border-width: 2px;
+    border-style: solid;
+    outline-color: darkgrey;
+    outline-width: 2px;
+    outline-style: solid;
+    width: 150px;
+    padding: 10px 0 10px 0;
+}
+
+.copiar:hover{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.rodapie{
+    text-align: center;
+    padding: 100px 0 5px 0; /*espaciamiento interno*/
+    font-size: 12px;
+    color: lightcoral;
+}
+.rodapie2{
+    text-align: center;
+    padding: 0 0 40px 0; /*espaciamiento interno*/
+    font-size: 12px;
+    color: lightcoral;
+}
+
+@media screen and (max-width:1024px) {
+    main{
+        display: inline;
+    }
+    .input-texto{
+        margin: 5%;
+        width: 90%;
+        font-size: 25px;
+    }
+    textarea{
+        width: 80%;
+    }
+    .aviso-letras{
+        margin-left: 5%;
+    }
+    .botones{
+        margin: 5%;
+    }
+    .encriptar{
+        width: 100%;
+    }
+    .desencriptar{
+        width: 100%;
+        margin: 5% 0 0 0;
+    }
+    .mensaje{
+        margin: 3%;
+        /* object-position: center; */
+        width: 80%;
+    }
+    .copiar{
+        width: 90%;
+        margin: 5%;
+    }
+}

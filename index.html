@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="es"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Encriptador Alura Challenge 1</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        
+    </head>
+
+    <body>
+        
+
+        <header>
+            <img src="imagenes/Vector.png" alt="Logo de alura con la inicial de letra A" class="logo-alura">
+        </header>
+
+        <main>
+            <section>
+                <textarea class="input-texto" cols="40" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+
+                <p class="aviso-letras">Sólo letras minúsculas y sin acentos</p>
+
+                <div class="botones">
+                    <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+
+                    <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+                
+            <section>
+                <textarea class="mensaje" cols="25" rows="15" disabled></textarea>
+                
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </section>
+
+        </main>
+        <script src="script.js">  </script>
+    </body>
+
+    <footer>
+        <p class="rodapie">Creado por: Ana Lucía Villalobos Rivas</p>
+        <p class="rodapie2">México</p>
+    </footer>
+</html>
