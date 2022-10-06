@@ -1,6 +1,6 @@
 body
 {
-    background-color: #ffb7b7;
+    background: linear-gradient(white, black);
     font-family: 'Playfair Display', serif;
 }
 
@@ -22,11 +22,12 @@ main
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     border-radius: 10px;
-    background-color: #ffb7b7;
+    background-color: white;
     border: none;
     outline: none; /*eliminar el borde del textarea al hacer click sobre él*/
     resize: none;
-
+    box-shadow: inset 2px 2px 5px 2px lightgrey;
+    padding: 15px 20px 15px 20px;
 }
 
 .aviso-letras{
@@ -144,13 +145,13 @@ main
     text-align: center;
     padding: 100px 0 5px 0; /*espaciamiento interno*/
     font-size: 12px;
-    color: lightcoral;
+    color: black;
 }
 .rodapie2{
     text-align: center;
     padding: 0 0 40px 0; /*espaciamiento interno*/
     font-size: 12px;
-    color: lightcoral;
+    color: black;
 }
 
 @media screen and (max-width:1024px) {
