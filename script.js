@@ -63,6 +63,6 @@ function copiar()
     mensaje.value = "";
     /*alert("Texto copiado");*/
     setTimeout(() => {
-        alert("¡Texto copiado!")
+        alert("Texto copiado al portapapeles")
         }, 0);
 }
