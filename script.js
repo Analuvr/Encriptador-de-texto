@@ -61,5 +61,8 @@ function copiar()
     mensaje.select(); //seleccionar todo lo que está adentro del cuadro de texto
     navigator.clipboard.writeText(mensaje.value); //escribe el texto especificado en el portapapeles (lo 'copia')
     mensaje.value = "";
-    alert("Texto copiado");
+    /*alert("Texto copiado");*/
+    setTimeout(() => {
+        alert("¡Texto copiado!")
+        }, 0);
 }
